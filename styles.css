@@ -219,3 +219,10 @@ a:hover{color:var(--color-accent-hover)}
   .quiz-card{padding:20px}
   .modal-content{padding:20px}
 }
+
+/* ---- Feedback Form ---- */
+.feedback-form{display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.feedback-form input,.feedback-form select,.feedback-form textarea{width:100%;padding:10px 14px;font-size:.88rem;font-family:var(--font-sans);border:1px solid var(--color-border);border-radius:var(--radius);background:var(--color-bg);color:var(--color-text);transition:border-color var(--transition),box-shadow var(--transition)}
+.feedback-form input:focus,.feedback-form select:focus,.feedback-form textarea:focus{outline:none;border-color:var(--color-accent);box-shadow:0 0 0 3px var(--color-accent-light)}
+.feedback-form textarea{resize:vertical;min-height:80px}
+.feedback-form .btn{align-self:flex-start}

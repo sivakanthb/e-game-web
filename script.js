@@ -16,6 +16,27 @@ document.addEventListener('DOMContentLoaded', function() {
       a.addEventListener('click', function() { links.classList.remove('open'); });
     });
   }
+
+  // ---- Feedback Form ----
+  var fbForm = document.getElementById('feedbackForm');
+  if (fbForm) {
+    fbForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var name = document.getElementById('fbName').value.trim();
+      var email = document.getElementById('fbEmail').value.trim();
+      var type = document.getElementById('fbType').value;
+      var message = document.getElementById('fbMessage').value.trim();
+
+      var subject = 'E-GAME Feedback: ' + type + ' from ' + name;
+      var body = 'Name: ' + name + '\n' +
+        (email ? 'Email: ' + email + '\n' : '') +
+        'Type: ' + type + '\n\n' +
+        message;
+
+      window.location.href = 'mailto:runarasimham@gmail.com?subject=' +
+        encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  }
 });
 
 // ---- Utility: fetch JSON ----

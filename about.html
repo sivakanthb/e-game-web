@@ -100,12 +100,29 @@
         <p>This interactive web application brings the E-GAME book to life digitally — with searchable lessons, interactive quizzes, and the PALPS word game. Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a>.</p>
       </div>
 
+      <div class="about-card" id="feedback">
+        <h2>💬 Share Your Feedback</h2>
+        <p>Have suggestions, found an error, or want to share how E-GAME helped you? We'd love to hear from you!</p>
+        <form id="feedbackForm" class="feedback-form">
+          <input type="text" id="fbName" placeholder="Your Name" required>
+          <input type="email" id="fbEmail" placeholder="Your Email (optional)">
+          <select id="fbType">
+            <option value="Feedback">General Feedback</option>
+            <option value="Suggestion">Suggestion</option>
+            <option value="Error Report">Error Report</option>
+            <option value="Appreciation">Appreciation</option>
+          </select>
+          <textarea id="fbMessage" placeholder="Your message..." rows="4" required></textarea>
+          <button type="submit" class="btn btn-primary">Send via Email ✉️</button>
+        </form>
+      </div>
+
     </div>
   </div>
 
   <footer class="site-footer">
     <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
-    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a></p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a> &middot; <a href="about.html#feedback">Share Feedback ✉️</a></p>
   </footer>
 
   <script src="script.js"></script>
