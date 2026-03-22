@@ -229,7 +229,7 @@ a:hover{color:var(--color-accent-hover)}
 
 /* ---- Fun Zone Hub ---- */
 .funzone-section{padding:48px 24px}
-.funzone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;max-width:1100px;margin:0 auto}
+.funzone-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:1100px;margin:0 auto}
 .funzone-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:28px;display:flex;flex-direction:column;gap:8px;transition:all var(--transition);text-decoration:none;color:inherit;position:relative;overflow:hidden}
 .funzone-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px);border-color:var(--color-accent)}
 .funzone-card .fz-icon{font-size:2.2rem;margin-bottom:4px}
