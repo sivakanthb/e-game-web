@@ -66,12 +66,12 @@ function initLessonsPage() {
 
     // Color map for categories
     var catColors = {
-      'Sentences': '#b91c1c',
+      'Sentences': '#0d7377',
       'Verbs': '#7c3aed',
       'Articles': '#0891b2',
       'Parts of Speech': '#059669',
       'Tenses': '#d97706',
-      'Interrogatives': '#dc2626',
+      'Interrogatives': '#2563eb',
       'Punctuation': '#6366f1',
       'Advanced': '#475569'
     };
@@ -123,7 +123,7 @@ function initLessonsPage() {
 
       grid.innerHTML = '';
       filtered.forEach(function(l) {
-        var color = catColors[l.category] || '#b91c1c';
+        var color = catColors[l.category] || '#0d7377';
         var card = document.createElement('div');
         card.className = 'lesson-card';
         card.style.setProperty('--card-accent', color);
