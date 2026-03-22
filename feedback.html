@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback — E-GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">📖 E-GAME <span>English Grammar Access Made Easy</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="fun-zone.html">Fun Zone</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Feedback & Contact</h1>
+    <p class="page-sub">We'd love to hear from you — share feedback, report errors, or get in touch with the author</p>
+  </section>
+
+  <div class="container">
+    <div class="about-section">
+
+      <div class="about-card">
+        <h2>📬 Contact The Author</h2>
+        <p><strong>Sri R U Narasimham</strong> — Word Analyst &amp; Author of E-GAME</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:runarasimham@gmail.com">runarasimham@gmail.com</a></p>
+        <p>🎥 <strong>YouTube:</strong> <a href="https://www.youtube.com/@reddinarasimham2154" target="_blank" rel="noopener">@reddinarasimham2154</a></p>
+        <p>📍 <strong>Address:</strong> Flat No: 511, Spring Leaf Apartments, Road No: 16, Khajaguda, Hyderabad — 500089, Telangana State, India</p>
+      </div>
+
+      <div class="about-card">
+        <h2>🌐 Web App Developer</h2>
+        <p><strong>Sivakanth Badigenchala</strong> — Software Professional</p>
+        <p>🔗 <strong>Portfolio:</strong> <a href="https://sivakanth.vercel.app/" target="_blank" rel="noopener">sivakanth.vercel.app</a></p>
+        <p>📂 <strong>GitHub:</strong> <a href="https://github.com/sivakanthb/e-game-web" target="_blank" rel="noopener">sivakanthb/e-game-web</a></p>
+      </div>
+
+      <div class="about-card" id="feedback">
+        <h2>💬 Share Your Feedback</h2>
+        <p>Have suggestions, found an error, or want to share how E-GAME helped you? Fill in the form below — it will open your email client to send directly to the author.</p>
+        <form id="feedbackForm" class="feedback-form">
+          <input type="text" id="fbName" placeholder="Your Name" required>
+          <input type="email" id="fbEmail" placeholder="Your Email (optional)">
+          <select id="fbType">
+            <option value="Feedback">General Feedback</option>
+            <option value="Suggestion">Suggestion</option>
+            <option value="Error Report">Error Report</option>
+            <option value="Appreciation">Appreciation</option>
+            <option value="Question">Question about Grammar</option>
+          </select>
+          <textarea id="fbMessage" placeholder="Your message..." rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send via Email ✉️</button>
+        </form>
+      </div>
+
+      <div class="about-card">
+        <h2>📖 Order The Book</h2>
+        <p>Want the complete E-GAME experience? The printed book covers 196 pages of comprehensive grammar content, including the full question bank and PALPS material.</p>
+        <p><strong>Title:</strong> E-GAME — English Grammar Access Made Easy</p>
+        <p><strong>ISBN:</strong> 978-93-342-4181-5</p>
+        <p><strong>Price:</strong> ₹499.00</p>
+        <p>Contact the author at <a href="mailto:runarasimham@gmail.com">runarasimham@gmail.com</a> to order.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

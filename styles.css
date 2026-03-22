@@ -226,3 +226,140 @@ a:hover{color:var(--color-accent-hover)}
 .feedback-form input:focus,.feedback-form select:focus,.feedback-form textarea:focus{outline:none;border-color:var(--color-accent);box-shadow:0 0 0 3px var(--color-accent-light)}
 .feedback-form textarea{resize:vertical;min-height:80px}
 .feedback-form .btn{align-self:flex-start}
+
+/* ---- Fun Zone Hub ---- */
+.funzone-section{padding:48px 24px}
+.funzone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;max-width:1100px;margin:0 auto}
+.funzone-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:28px;display:flex;flex-direction:column;gap:8px;transition:all var(--transition);text-decoration:none;color:inherit;position:relative;overflow:hidden}
+.funzone-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px);border-color:var(--color-accent)}
+.funzone-card .fz-icon{font-size:2.2rem;margin-bottom:4px}
+.funzone-card .fz-badge{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-accent);background:var(--color-accent-light);padding:3px 10px;border-radius:12px;display:inline-block;width:fit-content}
+.funzone-card h3{font-size:1.15rem;font-weight:800;letter-spacing:-.01em}
+.funzone-card .fz-full{font-size:.78rem;font-weight:600;color:var(--color-accent);margin:0}
+.funzone-card .fz-desc{font-size:.82rem;color:var(--color-text-secondary);line-height:1.6;flex-grow:1}
+.funzone-card .fz-cta{font-size:.82rem;font-weight:700;color:var(--color-accent);margin-top:8px}
+.coined-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.coined-card .fz-badge{display:none}
+
+/* ---- Game Pages (shared) ---- */
+.game-container{max-width:900px;margin:0 auto;padding:24px 0 64px}
+.game-instructions{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px}
+.game-instructions h3{font-size:1rem;font-weight:700;margin-bottom:8px}
+.game-instructions p{font-size:.85rem;color:var(--color-text-secondary);line-height:1.6}
+.game-rules{margin-top:16px;background:var(--color-bg);border-radius:var(--radius);padding:16px}
+.game-rules h4{font-size:.82rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em;color:var(--color-text-muted)}
+.game-rules ul{padding-left:20px;margin:0}
+.game-rules li{font-size:.82rem;color:var(--color-text-secondary);line-height:1.7;margin-bottom:4px}
+.game-example{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px}
+.game-example h3{font-size:1rem;font-weight:700;margin-bottom:16px}
+.game-play-area{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px}
+.game-play-area h3{font-size:1rem;font-weight:700;margin-bottom:16px}
+
+/* Chain display */
+.chain-display{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.chain-item{display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--color-bg);border-radius:var(--radius);font-size:.88rem}
+.chain-num{width:24px;height:24px;border-radius:50%;background:var(--color-accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;flex-shrink:0}
+.chain-text{flex-grow:1}
+.chain-link{color:var(--color-accent);font-weight:800}
+.chain-arrow{text-align:center;font-size:.75rem;color:var(--color-text-muted);padding:2px 0}
+.user-chain{min-height:0}
+.user-chain:empty{display:none}
+
+/* SLING / EITHER input */
+.sling-input-area{margin-top:16px}
+.sling-prompt{font-size:.88rem;color:var(--color-text-secondary);margin-bottom:12px;padding:12px;background:var(--color-accent-light);border-radius:var(--radius);line-height:1.5}
+.sling-input-row{display:flex;gap:10px}
+.sling-input-row input{flex-grow:1;padding:10px 14px;font-size:.88rem;font-family:var(--font-sans);border:1px solid var(--color-border);border-radius:var(--radius);background:var(--color-surface);color:var(--color-text);transition:border-color var(--transition)}
+.sling-input-row input:focus{outline:none;border-color:var(--color-accent);box-shadow:0 0 0 3px var(--color-accent-light)}
+.sling-input-row input:disabled{opacity:.5;cursor:not-allowed}
+.sling-feedback{margin-top:10px;font-size:.85rem;line-height:1.5;min-height:20px}
+.sling-feedback.success{color:#059669}
+.sling-feedback.error{color:#dc2626}
+.sling-feedback.info{color:var(--color-text-secondary)}
+
+/* SLING stats reuse palps-stat */
+.sling-stats{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+
+/* Game variations */
+.game-variations{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px}
+.game-variations h3{font-size:1rem;font-weight:700;margin-bottom:16px}
+.variation-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.variation-card{background:var(--color-bg);border:1px solid var(--color-border-light);border-radius:var(--radius);padding:16px}
+.variation-card h4{font-size:.85rem;font-weight:700;margin-bottom:6px}
+.variation-card p{font-size:.78rem;color:var(--color-text-secondary);line-height:1.6}
+
+/* EITHER page */
+.either-explain{font-size:.88rem;color:var(--color-text-secondary);line-height:1.6}
+.either-word-examples{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.either-word{padding:6px 14px;background:var(--color-accent-light);border:1px solid var(--color-border);border-radius:20px;font-size:.82rem;font-weight:600;color:var(--color-accent)}
+.either-word strong{font-weight:800}
+.either-word-bank{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.word-bank-group h4{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--color-text-muted);margin-bottom:8px}
+.word-bank-group{display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start}
+.word-bank-group h4{width:100%}
+
+/* SPELL SPREAD examples */
+.spell-examples{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.spell-example-card{background:var(--color-bg);border:1px solid var(--color-border-light);border-radius:var(--radius);padding:16px;text-align:center}
+.spell-word{font-size:1.3rem;font-weight:800;color:var(--color-accent);letter-spacing:.1em;margin-bottom:10px}
+.spell-expansion{font-size:.82rem;color:var(--color-text-secondary);line-height:2}
+.spell-letter{display:inline-block;width:18px;height:18px;background:var(--color-accent);color:#fff;border-radius:4px;text-align:center;line-height:18px;font-size:.7rem;font-weight:700;margin-right:1px}
+.spell-input-row{display:flex;gap:6px;align-items:center;margin-bottom:6px}
+.spell-letter-indicator{width:28px;height:28px;background:var(--color-accent);color:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:800;flex-shrink:0}
+.spell-input-row input{flex-grow:1;padding:8px 12px;font-size:.85rem;font-family:var(--font-sans);border:1px solid var(--color-border);border-radius:var(--radius);background:var(--color-surface);color:var(--color-text)}
+.spell-input-row input:focus{outline:none;border-color:var(--color-accent);box-shadow:0 0 0 3px var(--color-accent-light)}
+.spell-input-row.valid input{border-color:#059669;background:#ecfdf5}
+.spell-input-row.invalid input{border-color:#dc2626;background:#fef2f2}
+.spell-target{text-align:center;margin-bottom:20px}
+.spell-target .spell-target-word{font-size:2rem;font-weight:800;letter-spacing:.15em;color:var(--color-accent)}
+.spell-target .spell-target-hint{font-size:.82rem;color:var(--color-text-muted);margin-top:4px}
+
+/* ---- Coined Terms Page ---- */
+.coined-container{max-width:800px;margin:0 auto;padding:32px 0}
+.coined-detail-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:24px;overflow:hidden}
+.coined-header{display:flex;align-items:center;gap:16px;padding:24px 28px;border-bottom:1px solid var(--color-border);background:var(--color-bg)}
+.coined-header .coined-icon{font-size:2rem}
+.coined-header h2{font-size:1.3rem;font-weight:800;margin-bottom:2px}
+.coined-header .coined-tagline{font-size:.82rem;color:var(--color-text-secondary);margin:0}
+.coined-body{padding:24px 28px}
+.coined-body>p{font-size:.88rem;color:var(--color-text-secondary);line-height:1.7;margin-bottom:16px}
+.coined-example-block{background:var(--color-bg);border-radius:var(--radius);padding:20px;margin-bottom:16px}
+.coined-example-block:last-child{margin-bottom:0}
+.coined-example-block h4{font-size:.88rem;font-weight:700;margin-bottom:12px}
+.coined-examples{display:flex;flex-direction:column;gap:10px}
+.coined-ex{display:flex;align-items:flex-start;gap:10px;font-size:.85rem;line-height:1.6}
+.coined-pos{padding:3px 10px;background:var(--color-accent);color:#fff;border-radius:12px;font-size:.68rem;font-weight:700;white-space:nowrap;flex-shrink:0;margin-top:2px}
+.coined-note{font-size:.82rem;color:var(--color-text-muted);font-style:italic;margin-top:12px}
+.versonym-grid{display:flex;flex-wrap:wrap;gap:6px}
+.versonym-chip{padding:5px 14px;background:var(--color-surface);border:1px solid var(--color-border);border-radius:20px;font-size:.8rem;font-weight:600;color:var(--color-text-secondary)}
+.coined-table{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:8px}
+.coined-table th{text-align:left;padding:10px 14px;background:var(--color-accent-light);color:var(--color-accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+.coined-table td{padding:10px 14px;border-bottom:1px solid var(--color-border-light);color:var(--color-text-secondary)}
+
+/* Factonym cards */
+.factonym-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.factonym-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius);padding:16px;text-align:center}
+.factonym-name{font-size:1.2rem;font-weight:800;letter-spacing:.12em;color:var(--color-accent);margin-bottom:10px}
+.factonym-expand{display:flex;flex-direction:column;gap:3px;font-size:.82rem;color:var(--color-text-secondary);text-align:left}
+.factonym-expand strong{color:var(--color-accent);font-weight:800}
+
+/* Mnemogram */
+.mnemogram-story{background:var(--color-bg);border-radius:var(--radius);padding:20px}
+.mnemogram-line{font-size:.88rem;line-height:1.8;color:var(--color-text-secondary)}
+.mnemogram-divider{text-align:center;font-size:.78rem;color:var(--color-text-muted);font-style:italic;margin:10px 0}
+.mnemogram-moral{margin-top:16px;padding:12px;background:var(--color-accent-light);border-radius:var(--radius);font-size:.82rem;line-height:1.6;color:var(--color-text)}
+
+@media(max-width:768px){
+  .funzone-grid{grid-template-columns:1fr}
+  .coined-grid{grid-template-columns:repeat(2,1fr)}
+  .spell-examples{grid-template-columns:repeat(2,1fr)}
+  .factonym-grid{grid-template-columns:1fr}
+  .coined-header{flex-direction:column;text-align:center;gap:8px}
+  .variation-cards{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .coined-grid{grid-template-columns:1fr}
+  .spell-examples{grid-template-columns:1fr}
+  .coined-body{padding:16px}
+  .coined-header{padding:16px}
+}

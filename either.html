@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EITHER — E-GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">📖 E-GAME <span>English Grammar Access Made Easy</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="fun-zone.html" class="active">Fun Zone</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <h1>🔄 EITHER</h1>
+    <p class="page-sub">End the sentence wITH the same lettER — build sentences where each word starts and ends with the same letter</p>
+  </section>
+
+  <div class="container">
+    <div class="game-container" id="eitherContainer">
+      <div class="game-instructions">
+        <h3>How to Play</h3>
+        <p>EITHER is a sentence-building game with a creative twist. Form sentences using <strong>words that start and end with the same letter</strong>. Then the next sentence must start with the <strong>second-to-last letter</strong> of the previous sentence's last word.</p>
+        <div class="game-rules">
+          <h4>Rules</h4>
+          <ul>
+            <li>Each word in your sentence should ideally <strong>start and end with the same letter</strong>.</li>
+            <li>The next sentence starts with the <strong>second-to-last (penultimate) letter</strong> of the previous sentence's last word.</li>
+            <li>Avoid <strong>proper nouns</strong> and the conjunction <strong>"and"</strong>.</li>
+            <li>Build <strong>simple, grammatically correct</strong> sentences.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="game-example">
+        <h3>📖 Understanding the Pattern</h3>
+        <div class="either-explain">
+          <p>Words that start and end with the same letter:</p>
+          <div class="either-word-examples">
+            <span class="either-word"><strong>T</strong>ha<strong>t</strong></span>
+            <span class="either-word"><strong>D</strong>i<strong>d</strong></span>
+            <span class="either-word"><strong>E</strong>njoyabl<strong>e</strong></span>
+            <span class="either-word"><strong>N</strong>oo<strong>n</strong></span>
+            <span class="either-word"><strong>S</strong>hip<strong>s</strong></span>
+            <span class="either-word"><strong>W</strong>illo<strong>w</strong></span>
+            <span class="either-word"><strong>R</strong>ada<strong>r</strong></span>
+            <span class="either-word"><strong>L</strong>eve<strong>l</strong></span>
+          </div>
+          <p style="margin-top:16px">Example sentence chain:</p>
+          <div class="chain-display">
+            <div class="chain-item"><span class="chain-num">1</span> <span class="chain-text"><strong class="chain-link">T</strong>ha<strong class="chain-link">t</strong> da<strong class="chain-link">d</strong> di<strong class="chain-link">d</strong> goo<strong class="chain-link">d</strong>.</span></div>
+            <div class="chain-arrow">↓ penultimate letter of "good" = <strong>O</strong></div>
+            <div class="chain-item"><span class="chain-num">2</span> <span class="chain-text"><strong class="chain-link">O</strong>live oi<strong class="chain-link">l</strong> offer<strong class="chain-link">s</strong> overal<strong class="chain-link">l</strong> option<strong class="chain-link">s</strong>.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-play-area">
+        <h3>🎮 Your Turn</h3>
+        <div class="sling-stats">
+          <div class="palps-stat"><div class="stat-val" id="eitherChain">0</div><div class="stat-lbl">Sentences</div></div>
+          <div class="palps-stat"><div class="stat-val" id="eitherMatch">0</div><div class="stat-lbl">Matching Words</div></div>
+        </div>
+        <div id="eitherChainDisplay" class="chain-display user-chain"></div>
+        <div class="sling-input-area">
+          <div class="sling-prompt" id="eitherPrompt">Click "Start" to begin. Try to use words that start and end with the same letter!</div>
+          <div class="sling-input-row">
+            <input type="text" id="eitherInput" placeholder="Type your sentence here..." disabled>
+            <button class="btn btn-primary" id="eitherSubmit" disabled>Add →</button>
+          </div>
+          <div class="sling-feedback" id="eitherFeedback"></div>
+        </div>
+        <div class="quiz-btn-row" style="margin-top:16px">
+          <button class="btn btn-primary" id="eitherStart">Start Game</button>
+          <button class="btn btn-outline" id="eitherReset" style="display:none">Reset</button>
+        </div>
+      </div>
+
+      <div class="game-example" style="margin-top:24px">
+        <h3>💡 Helpful Same-Letter Words</h3>
+        <div class="either-word-bank">
+          <div class="word-bank-group">
+            <h4>Common ones</h4>
+            <span class="either-word">That</span>
+            <span class="either-word">Did</span>
+            <span class="either-word">Noon</span>
+            <span class="either-word">Eye</span>
+            <span class="either-word">Eve</span>
+            <span class="either-word">Ewe</span>
+            <span class="either-word">Level</span>
+            <span class="either-word">Roar</span>
+            <span class="either-word">Refer</span>
+          </div>
+          <div class="word-bank-group">
+            <h4>Longer words</h4>
+            <span class="either-word">Enjoyable</span>
+            <span class="either-word">Effective</span>
+            <span class="either-word">Nationwide</span>
+            <span class="either-word">Throughout</span>
+            <span class="either-word">Worship</span>
+            <span class="either-word">Willow</span>
+            <span class="either-word">Radar</span>
+            <span class="either-word">Kayak</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a> &middot; <a href="feedback.html">Share Feedback ✉️</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initEitherPage();</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPELL SPREAD — E-GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">📖 E-GAME <span>English Grammar Access Made Easy</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="fun-zone.html" class="active">Fun Zone</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <h1>✨ SPELL SPREAD</h1>
+    <p class="page-sub">Create logical phrases where the first letters of each word spell out a given word</p>
+  </section>
+
+  <div class="container">
+    <div class="game-container" id="spellContainer">
+      <div class="game-instructions">
+        <h3>How to Play</h3>
+        <p>You'll be given a word. Your job is to create a <strong>logical phrase or sentence</strong> where the <strong>first letter of each word</strong> spells out the given word. The phrase should relate to the meaning of the word!</p>
+        <div class="game-rules">
+          <h4>Rules</h4>
+          <ul>
+            <li>The first letters of your words must spell the given word <strong>in order</strong>.</li>
+            <li>Your phrase should be <strong>meaningful and relate</strong> to the word's meaning.</li>
+            <li>It can be a <strong>definition, advice, saying, or universal truth</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="game-example">
+        <h3>📖 Examples from the Book</h3>
+        <div class="spell-examples">
+          <div class="spell-example-card">
+            <div class="spell-word">TREE</div>
+            <div class="spell-expansion">
+              <span class="spell-letter">T</span>imber
+              <span class="spell-letter">R</span>esource
+              <span class="spell-letter">E</span>nables
+              <span class="spell-letter">E</span>cobalance
+            </div>
+          </div>
+          <div class="spell-example-card">
+            <div class="spell-word">DOCTOR</div>
+            <div class="spell-expansion">
+              <span class="spell-letter">D</span>iligently
+              <span class="spell-letter">O</span>perates;
+              <span class="spell-letter">C</span>arefully
+              <span class="spell-letter">T</span>reats;
+              <span class="spell-letter">O</span>ffers
+              <span class="spell-letter">R</span>elief
+            </div>
+          </div>
+          <div class="spell-example-card">
+            <div class="spell-word">FRIEND</div>
+            <div class="spell-expansion">
+              <span class="spell-letter">F</span>urthers
+              <span class="spell-letter">R</span>eaction;
+              <span class="spell-letter">I</span>gnites
+              <span class="spell-letter">E</span>motion;
+              <span class="spell-letter">N</span>ice
+              <span class="spell-letter">D</span>efinition
+            </div>
+          </div>
+          <div class="spell-example-card">
+            <div class="spell-word">FOOD</div>
+            <div class="spell-expansion">
+              <span class="spell-letter">F</span>actor
+              <span class="spell-letter">O</span>f
+              <span class="spell-letter">O</span>rgan
+              <span class="spell-letter">D</span>evelopment
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-play-area">
+        <h3>🎮 Your Turn</h3>
+        <div class="sling-stats">
+          <div class="palps-stat"><div class="stat-val" id="spellScore">0</div><div class="stat-lbl">Completed</div></div>
+          <div class="palps-stat"><div class="stat-val" id="spellTotal">0</div><div class="stat-lbl">Attempted</div></div>
+        </div>
+        <div id="spellGameArea"></div>
+        <div class="quiz-btn-row" style="margin-top:16px">
+          <button class="btn btn-primary" id="spellStart">Start Game</button>
+          <button class="btn btn-outline" id="spellSkip" style="display:none">Skip →</button>
+          <button class="btn btn-outline" id="spellReset" style="display:none">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a> &middot; <a href="feedback.html">Share Feedback ✉️</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initSpellSpreadPage();</script>
+</body>
+</html>
