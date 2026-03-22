@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PALPS — E-GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">📖 E-GAME <span>English Grammar Access Made Easy</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="palps.html" class="active">PALPS</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <h1>🎮 PALPS</h1>
+    <p class="page-sub">Pick And Learn Parts of Speech — identify parts of speech for 100 carefully chosen words</p>
+  </section>
+
+  <div class="container">
+    <div class="palps-container" id="palpsContainer">
+      <div class="palps-instructions">
+        <h3>How to Play</h3>
+        <p>A word will appear on screen. Your job is to identify its <strong>primary part of speech</strong>. Many words are <em>Versonyms</em> — they can function as different parts of speech depending on context. After answering, you'll see all possible uses with examples.</p>
+      </div>
+      <div class="palps-stats" id="palpsStats">
+        <div class="palps-stat"><div class="stat-val" id="palpsScore">0</div><div class="stat-lbl">Score</div></div>
+        <div class="palps-stat"><div class="stat-val" id="palpsTotal">0</div><div class="stat-lbl">Attempted</div></div>
+        <div class="palps-stat"><div class="stat-val" id="palpsStreak">0</div><div class="stat-lbl">Streak</div></div>
+        <div class="palps-stat"><div class="stat-val" id="palpsRemaining">100</div><div class="stat-lbl">Remaining</div></div>
+      </div>
+      <div id="palpsGame"></div>
+      <div class="quiz-btn-row" style="margin-top:16px">
+        <button class="btn btn-primary" id="palpsStart">Start Game</button>
+        <button class="btn btn-outline" id="palpsReset" style="display:none">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    initPalpsPage();
+  </script>
+</body>
+</html>

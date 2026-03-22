@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "category": "Subject-Verb Agreement",
+    "question": "Choose the correct form: 'Girls ____ songs.'",
+    "options": ["sings", "sing", "singing", "is singing"],
+    "answer": 1,
+    "explanation": "Plural subject 'Girls' takes the base form of the verb — 'sing' (no 's')."
+  },
+  {
+    "id": 2,
+    "category": "Subject-Verb Agreement",
+    "question": "Choose the correct form: 'The minister, along with his followers, ____ visiting this place shortly.'",
+    "options": ["are", "is", "were", "have been"],
+    "answer": 1,
+    "explanation": "'Along with his followers' is an additional phrase. The main subject is 'The minister' (singular), so 'is' is correct."
+  },
+  {
+    "id": 3,
+    "category": "Subject-Verb Agreement",
+    "question": "'Mathematics ____ my favourite subject.'",
+    "options": ["are", "is", "were", "have been"],
+    "answer": 1,
+    "explanation": "Subject names ending in -s (Mathematics, Physics, Economics) take a singular verb."
+  },
+  {
+    "id": 4,
+    "category": "Subject-Verb Agreement",
+    "question": "'Seetha and Geetha ____ good friends.'",
+    "options": ["is", "was", "are", "has been"],
+    "answer": 2,
+    "explanation": "Two subjects joined by 'and' take a plural verb — 'are'."
+  },
+  {
+    "id": 5,
+    "category": "Subject-Verb Agreement",
+    "question": "'Every boy and girl ____ given a pen.'",
+    "options": ["were", "was", "are", "have been"],
+    "answer": 1,
+    "explanation": "'Every' makes the subject singular, even with 'and'. So 'was' is correct."
+  },
+  {
+    "id": 6,
+    "category": "Be Forms",
+    "question": "Fill in the blank: 'He ____ playing tennis.'",
+    "options": ["am", "is", "are", "were"],
+    "answer": 1,
+    "explanation": "'He' is third person singular, so 'is' is the correct be-form."
+  },
+  {
+    "id": 7,
+    "category": "Be Forms",
+    "question": "Fill in the blank: 'The children ____ in the park when the rain started.'",
+    "options": ["was", "is", "are", "were"],
+    "answer": 3,
+    "explanation": "'Children' is plural and the action was in the past, so 'were' is correct."
+  },
+  {
+    "id": 8,
+    "category": "Be Forms",
+    "question": "Fill in the blank: 'I ____ a teacher.'",
+    "options": ["am", "is", "are", "was"],
+    "answer": 0,
+    "explanation": "First person singular 'I' takes 'am' in the present tense."
+  },
+  {
+    "id": 9,
+    "category": "Have Forms",
+    "question": "Fill in the blank: 'He ____ taken lunch before the meeting.'",
+    "options": ["has", "have", "had", "having"],
+    "answer": 2,
+    "explanation": "The action was completed before another past event, so past perfect 'had' is correct."
+  },
+  {
+    "id": 10,
+    "category": "Have Forms",
+    "question": "Fill in the blank: 'They ____ their dinner just now.'",
+    "options": ["has had", "have had", "had had", "having"],
+    "answer": 1,
+    "explanation": "'Just now' indicates recent completion. Plural subject 'They' takes 'have had'."
+  },
+  {
+    "id": 11,
+    "category": "Do Forms",
+    "question": "Fill in the blank: '____ she go to market yesterday?'",
+    "options": ["Do", "Does", "Did", "Done"],
+    "answer": 2,
+    "explanation": "'Yesterday' is past tense. 'Did' is the past tense form of 'do' used for questions."
+  },
+  {
+    "id": 12,
+    "category": "Do Forms",
+    "question": "Fill in the blank: '____ they agree to help us regularly?'",
+    "options": ["Do", "Does", "Did", "Done"],
+    "answer": 0,
+    "explanation": "Plural subject 'they' + regular habit = 'Do'."
+  },
+  {
+    "id": 13,
+    "category": "Modals",
+    "question": "Choose the correct modal: 'You ____ obey the traffic rules.' (obligation)",
+    "options": ["can", "might", "must", "could"],
+    "answer": 2,
+    "explanation": "'Must' expresses strong obligation or necessity."
+  },
+  {
+    "id": 14,
+    "category": "Modals",
+    "question": "Choose the correct modal: '____ I come in, sir?' (permission)",
+    "options": ["Will", "Must", "Shall", "May"],
+    "answer": 3,
+    "explanation": "'May' is used for asking formal permission."
+  },
+  {
+    "id": 15,
+    "category": "Modals",
+    "question": "'She ____ speak three languages.' (ability)",
+    "options": ["may", "can", "must", "should"],
+    "answer": 1,
+    "explanation": "'Can' expresses ability or capability."
+  },
+  {
+    "id": 16,
+    "category": "Articles",
+    "question": "Choose the correct article: 'He is ____ European.'",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 0,
+    "explanation": "'European' starts with a consonant sound /j/ (like 'you'), so 'a' is correct."
+  },
+  {
+    "id": 17,
+    "category": "Articles",
+    "question": "Choose the correct article: 'She waited for ____ hour.'",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1,
+    "explanation": "'Hour' starts with a vowel sound (the 'h' is silent), so 'an' is correct."
+  },
+  {
+    "id": 18,
+    "category": "Articles",
+    "question": "'____ Ganga is a holy river.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": 2,
+    "explanation": "Specific rivers use 'The' — there is only one Ganga."
+  },
+  {
+    "id": 19,
+    "category": "Articles",
+    "question": "'____ gold is a precious metal.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": 3,
+    "explanation": "Uncountable nouns used in a general sense don't need an article."
+  },
+  {
+    "id": 20,
+    "category": "Parts of Speech",
+    "question": "In 'Water is colourless', what part of speech is 'Water'?",
+    "options": ["Verb", "Adjective", "Adverb", "Noun"],
+    "answer": 3,
+    "explanation": "Here 'Water' is used as a naming word (subject of the sentence) — it's a Noun."
+  },
+  {
+    "id": 21,
+    "category": "Parts of Speech",
+    "question": "In 'Water the plants', what part of speech is 'Water'?",
+    "options": ["Noun", "Adjective", "Verb", "Adverb"],
+    "answer": 2,
+    "explanation": "Here 'Water' is used as an action word (a command) — it's a Verb. This is a Versonym!"
+  },
+  {
+    "id": 22,
+    "category": "Parts of Speech",
+    "question": "Identify the pronoun: 'Everyone has to obey the law.'",
+    "options": ["has", "obey", "Everyone", "law"],
+    "answer": 2,
+    "explanation": "'Everyone' is an indefinite pronoun — it refers to all people without specifying anyone."
+  },
+  {
+    "id": 23,
+    "category": "Nouns",
+    "question": "What kind of noun is 'army'?",
+    "options": ["Proper Noun", "Abstract Noun", "Collective Noun", "Material Noun"],
+    "answer": 2,
+    "explanation": "'Army' refers to a group of soldiers — it's a Collective Noun."
+  },
+  {
+    "id": 24,
+    "category": "Nouns",
+    "question": "What kind of noun is 'love'?",
+    "options": ["Common Noun", "Proper Noun", "Material Noun", "Abstract Noun"],
+    "answer": 3,
+    "explanation": "'Love' is something you cannot touch or see — it's an Abstract Noun (intangible)."
+  },
+  {
+    "id": 25,
+    "category": "Tenses",
+    "question": "Identify the tense: 'She is teaching English now.'",
+    "options": ["Simple Present", "Present Perfect", "Present Continuous", "Past Continuous"],
+    "answer": 2,
+    "explanation": "'is teaching' = is/am/are + V-ing. This is Present Continuous — happening right now."
+  },
+  {
+    "id": 26,
+    "category": "Tenses",
+    "question": "Identify the tense: 'She has taught English for 10 years.'",
+    "options": ["Simple Past", "Present Perfect", "Past Perfect", "Simple Present"],
+    "answer": 1,
+    "explanation": "'has taught' = has/have + V3. This is Present Perfect — past action with present relevance."
+  },
+  {
+    "id": 27,
+    "category": "Tenses",
+    "question": "Identify the tense: 'She had taught English before she moved.'",
+    "options": ["Simple Past", "Present Perfect", "Past Perfect", "Past Continuous"],
+    "answer": 2,
+    "explanation": "'had taught' = had + V3. This is Past Perfect — an action before another past action."
+  },
+  {
+    "id": 28,
+    "category": "Voice",
+    "question": "Convert to passive: 'She writes a letter.'",
+    "options": ["A letter is written by her.", "A letter was written by her.", "A letter is being written.", "A letter has been written."],
+    "answer": 0,
+    "explanation": "Simple Present Active → Simple Present Passive: writes → is written."
+  },
+  {
+    "id": 29,
+    "category": "Voice",
+    "question": "Convert to passive: 'They are building a house.'",
+    "options": ["A house was being built.", "A house is being built by them.", "A house has been built.", "A house will be built."],
+    "answer": 1,
+    "explanation": "Present Continuous Active → Present Continuous Passive: are building → is being built."
+  },
+  {
+    "id": 30,
+    "category": "Direct & Indirect Speech",
+    "question": "Convert: He said, 'I am happy.'",
+    "options": ["He said that he is happy.", "He said that he was happy.", "He said that I am happy.", "He says that he was happy."],
+    "answer": 1,
+    "explanation": "In indirect speech: I→he, am→was, add 'that'. 'He said that he was happy.'"
+  },
+  {
+    "id": 31,
+    "category": "Conditionals",
+    "question": "Identify the conditional: 'If you heat water, it boils.'",
+    "options": ["First Conditional", "Second Conditional", "Third Conditional", "Zero Conditional"],
+    "answer": 3,
+    "explanation": "If + present, present = Zero Conditional — this is a general/scientific truth."
+  },
+  {
+    "id": 32,
+    "category": "Conditionals",
+    "question": "Complete: 'If I were a bird, I ____.'",
+    "options": ["will fly", "would fly", "flew", "had flown"],
+    "answer": 1,
+    "explanation": "Second Conditional: If + past, would + verb. Unreal present situation."
+  },
+  {
+    "id": 33,
+    "category": "Degrees of Comparison",
+    "question": "'John is as strong as Jim.' — What degree?",
+    "options": ["Comparative", "Superlative", "Positive", "None"],
+    "answer": 2,
+    "explanation": "'As + adjective + as' is the Positive Degree — comparing two equals."
+  },
+  {
+    "id": 34,
+    "category": "Punctuation",
+    "question": "Which punctuation mark shows possession?",
+    "options": ["Colon", "Semicolon", "Apostrophe", "Comma"],
+    "answer": 2,
+    "explanation": "The apostrophe shows possession: John's car, India's culture."
+  },
+  {
+    "id": 35,
+    "category": "Punctuation",
+    "question": "Complete: 'He has three hobbies ___ reading, swimming, and cooking.'",
+    "options": ["—", ":", ";", ","],
+    "answer": 1,
+    "explanation": "A colon (:) is used to introduce a list."
+  },
+  {
+    "id": 36,
+    "category": "Non-Finites",
+    "question": "In 'Swimming is good exercise', 'swimming' is a:",
+    "options": ["Verb", "Gerund", "Participle", "Infinitive"],
+    "answer": 1,
+    "explanation": "Swimming (V+ing) is used as a noun (subject of the sentence) — it's a Gerund."
+  },
+  {
+    "id": 37,
+    "category": "Non-Finites",
+    "question": "In 'She wants to learn English', 'to learn' is a:",
+    "options": ["Gerund", "Participle", "Infinitive", "Preposition"],
+    "answer": 2,
+    "explanation": "'To + verb' is an Infinitive. Here it acts as the object of 'wants'."
+  },
+  {
+    "id": 38,
+    "category": "Prepositions",
+    "question": "Choose the correct preposition: 'He arrives ____ 5 PM.'",
+    "options": ["in", "on", "at", "by"],
+    "answer": 2,
+    "explanation": "Specific time uses 'at' — at 5 PM, at noon, at midnight."
+  },
+  {
+    "id": 39,
+    "category": "Conjunctions",
+    "question": "'He is poor ____ honest.' — Choose the conjunction.",
+    "options": ["and", "but", "or", "so"],
+    "answer": 1,
+    "explanation": "'But' shows contrast between two qualities — poor (negative) and honest (positive)."
+  },
+  {
+    "id": 40,
+    "category": "Figures of Speech",
+    "question": "'Her smile was like sunshine.' — What figure of speech?",
+    "options": ["Metaphor", "Personification", "Simile", "Hyperbole"],
+    "answer": 2,
+    "explanation": "A comparison using 'like' or 'as' is a Simile."
+  },
+  {
+    "id": 41,
+    "category": "Figures of Speech",
+    "question": "'Time is money.' — What figure of speech?",
+    "options": ["Simile", "Metaphor", "Alliteration", "Personification"],
+    "answer": 1,
+    "explanation": "A direct comparison without 'like' or 'as' is a Metaphor."
+  },
+  {
+    "id": 42,
+    "category": "Question Tags",
+    "question": "Complete the question tag: 'She is a doctor, ____?'",
+    "options": ["is she", "isn't she", "doesn't she", "wasn't she"],
+    "answer": 1,
+    "explanation": "Positive statement → negative tag. 'She is' → 'isn't she?'"
+  },
+  {
+    "id": 43,
+    "category": "Sentence Patterns",
+    "question": "What is the pattern of 'Birds fly'?",
+    "options": ["SVO", "SVC", "SV", "SVA"],
+    "answer": 2,
+    "explanation": "Birds (Subject) + fly (Verb) — the simplest sentence pattern: SV."
+  },
+  {
+    "id": 44,
+    "category": "Sentence Patterns",
+    "question": "What is the pattern of 'He gave her a present'?",
+    "options": ["SVO", "SVOC", "SVIODO", "SVA"],
+    "answer": 2,
+    "explanation": "He (S) gave (V) her (Indirect Object) a present (Direct Object) = SVIODO."
+  },
+  {
+    "id": 45,
+    "category": "Subject-Verb Agreement",
+    "question": "'The United States of America ____ a rich country.'",
+    "options": ["are", "is", "were", "have been"],
+    "answer": 1,
+    "explanation": "Country names — even if they look plural — take a singular verb."
+  },
+  {
+    "id": 46,
+    "category": "Pronouns",
+    "question": "What type of pronoun is 'himself' in 'He hurt himself while playing'?",
+    "options": ["Personal", "Possessive", "Reflexive", "Relative"],
+    "answer": 2,
+    "explanation": "'Himself' is a Reflexive Pronoun — the subject and object are the same person."
+  },
+  {
+    "id": 47,
+    "category": "Pronouns",
+    "question": "'Whose is this bag?' — 'Whose' is what type of pronoun?",
+    "options": ["Relative", "Demonstrative", "Interrogative", "Distributive"],
+    "answer": 2,
+    "explanation": "'Whose' introduces a question — it's an Interrogative Pronoun."
+  },
+  {
+    "id": 48,
+    "category": "Voice",
+    "question": "Convert to passive: 'He has finished the work.'",
+    "options": ["The work finished by him.", "The work has been finished by him.", "The work is finished.", "The work was finished."],
+    "answer": 1,
+    "explanation": "Present Perfect: has finished → has been finished. 'The work has been finished by him.'"
+  },
+  {
+    "id": 49,
+    "category": "Tenses",
+    "question": "Which tense: 'She had left before he arrived.'?",
+    "options": ["Simple Past", "Past Continuous", "Past Perfect", "Present Perfect"],
+    "answer": 2,
+    "explanation": "'Had left' = Past Perfect. It shows an action completed before another past action."
+  },
+  {
+    "id": 50,
+    "category": "Articles",
+    "question": "'She has ____ MBA degree.'",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1,
+    "explanation": "'MBA' starts with the vowel sound /ɛm/ ('em-bee-ay'), so 'an' is correct."
+  }
+]

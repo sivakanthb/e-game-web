@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons — E-GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">📖 E-GAME <span>English Grammar Access Made Easy</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="lessons.html" class="active">Lessons</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="palps.html">PALPS</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Grammar Lessons</h1>
+    <p class="page-sub">40+ grammar topics organized through the SVAPTIP framework — from sentences to punctuation</p>
+    <div class="page-search">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="lessonSearch" placeholder="Search lessons...">
+    </div>
+    <div class="page-filter-bar" id="lessonFilters"></div>
+    <div class="page-count" id="lessonCount"></div>
+  </section>
+
+  <div class="container">
+    <div class="lesson-grid" id="lessonGrid"></div>
+  </div>
+
+  <!-- Lesson Detail Modal -->
+  <div class="modal-overlay" id="lessonModal">
+    <div class="modal-content" id="modalContent">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 E-GAME &middot; English Grammar Access Made Easy &middot; R U Narasimham</p>
+    <p class="footer-sub">Built by <a href="https://sivakanth.vercel.app/">Sivakanth Badigenchala</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    initLessonsPage();
+  </script>
+</body>
+</html>

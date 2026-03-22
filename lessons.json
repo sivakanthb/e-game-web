@@ -1,0 +1,584 @@
+[
+  {
+    "id": 1,
+    "title": "Sentence — The Grammar Family",
+    "category": "Sentences",
+    "step": "S",
+    "summary": "A sentence is a group of words which makes complete sense. Learn the Grammar Family story — Mr. Noun, Mrs. Verb, and their children — to understand how words work together.",
+    "topics": ["Kinds of Sentences", "Parts of Sentence", "Sentence Patterns", "Order of Words"],
+    "content": {
+      "definition": "A sentence is a group of words which makes complete sense. Letters make words, words make sentences, and sentences make communication.",
+      "key_points": [
+        "Every sentence has a Subject (who/what) and a Predicate (what about it)",
+        "The Verb is the action or state of being in a sentence",
+        "The Object receives the action done by the subject",
+        "A Complement completes the meaning — subject complement or object complement",
+        "An Adjunct provides additional information about the verb (can be removed)"
+      ],
+      "patterns": [
+        {"pattern": "SV", "example": "Birds fly.", "explanation": "Subject + Verb"},
+        {"pattern": "SVO", "example": "John helps friends.", "explanation": "Subject + Verb + Object"},
+        {"pattern": "SVC", "example": "Cobra is dangerous.", "explanation": "Subject + Verb + Complement"},
+        {"pattern": "SVA", "example": "Children grow fast.", "explanation": "Subject + Verb + Adjunct"},
+        {"pattern": "SVOC", "example": "They elected him chairman.", "explanation": "Subject + Verb + Object + Complement"},
+        {"pattern": "SVIODO", "example": "He gave her a present.", "explanation": "Subject + Verb + Indirect Object + Direct Object"}
+      ],
+      "grammar_family": "There is a family in London whose surname is Grammar. Mr. Noun and Mrs. Verb are the couple. They have three children: son Pronoun, and daughters Adjective and Adverb. Pronoun does all his father's work in his absence. Adjective loves her father (Noun) and keeps praising him. Adverb loves her mother (Verb) and always modifies her. Preposition is the chief servant, Conjunction is the matchmaker who joins words, and Interjection is the function supplier for Joy, Surprise, and Sorrow."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Parts of Sentence & Patterns",
+    "category": "Sentences",
+    "step": "S",
+    "summary": "Master the six building blocks — Subject, Verb, Object, Complement, Adjunct — and recognize sentence patterns like SVO, SVC, SVOC, and SVIODO.",
+    "topics": ["Subject", "Predicate", "Object", "Complement", "Adjunct", "Direct & Indirect Object"],
+    "content": {
+      "definition": "Every sentence can be broken into parts that play specific roles. Understanding these parts helps you construct correct and varied sentences.",
+      "key_points": [
+        "Subject — the person or thing doing the action: 'Birds fly in the sky'",
+        "Predicate — the part that describes what the subject does: 'Birds fly in the sky'",
+        "Verb — the action or state word: 'Birds fly in the sky'",
+        "Object — receives the action: 'John helps friends'",
+        "Complement — completes the meaning: 'India is a country' (subject complement)",
+        "Adjunct — optional extra info: 'Birds fly in the sky'"
+      ],
+      "patterns": [
+        {"pattern": "SV", "example": "Sun shines.", "explanation": "Simplest pattern — subject does action"},
+        {"pattern": "SVC", "example": "Cobra is a snake.", "explanation": "Complement is a noun"},
+        {"pattern": "SVO", "example": "Birds build nests.", "explanation": "Object receives the action"},
+        {"pattern": "SVOA", "example": "She plays music actively.", "explanation": "Adjunct adds detail"},
+        {"pattern": "SVIODO", "example": "The teacher gave him a present.", "explanation": "Him = indirect, present = direct"},
+        {"pattern": "SVOC", "example": "They elected him new chairman.", "explanation": "Object complement renames/describes object"}
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Subject-Verb Agreement",
+    "category": "Sentences",
+    "step": "S",
+    "summary": "The subject and verb must agree in number. Learn the rules that govern singular/plural agreement, collective nouns, and tricky cases.",
+    "topics": ["Singular & Plural", "Collective Nouns", "Compound Subjects", "Special Cases"],
+    "content": {
+      "definition": "Subject-verb agreement means the verb must match the subject in number (singular or plural). Getting this right is essential for correct English.",
+      "key_points": [
+        "Singular subject takes singular verb: 'He plays cricket'",
+        "Plural subject takes plural verb: 'Girls sing songs'",
+        "Phrases between subject and verb don't change agreement: 'The minister, along with his followers, is visiting'",
+        "Two subjects joined by 'and' take plural verb: 'Seetha and Geetha are good friends'",
+        "Either/Neither...or/nor: verb agrees with the nearest subject",
+        "Collective nouns can be singular or plural depending on meaning: 'The committee takes a decision' vs 'The committee are divided'"
+      ],
+      "patterns": [
+        {"pattern": "Rule", "example": "Everyone has to obey the law.", "explanation": "Everyone/each/every = singular"},
+        {"pattern": "Rule", "example": "Mathematics is my favourite subject.", "explanation": "Subject names ending in -s but singular meaning"},
+        {"pattern": "Rule", "example": "Hundred rupees is not a big amount.", "explanation": "Amount/distance as a unit = singular"},
+        {"pattern": "Rule", "example": "The United States of America is a rich country.", "explanation": "Country/book names = singular"},
+        {"pattern": "Rule", "example": "Some of the books are found spoilt.", "explanation": "Some + plural noun = plural"},
+        {"pattern": "Rule", "example": "Some of the music is not audible.", "explanation": "Some + uncountable noun = singular"}
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Verb Classification & Usage",
+    "category": "Verbs",
+    "step": "V",
+    "summary": "Verbs are the heart of every sentence. Learn to classify verbs into auxiliaries, modals, finite, non-finite, transitive, intransitive and more.",
+    "topics": ["Prime Auxiliaries", "Modals", "Action & Linking Verbs", "Transitive & Intransitive"],
+    "content": {
+      "definition": "A verb is a word which denotes an action or a state of being. Verbs are classified into several types based on their function in a sentence.",
+      "key_points": [
+        "Auxiliary verbs help the main verb: Be forms (am, is, are, was, were), Have forms (has, have, had), Do forms (do, does, did)",
+        "Modal verbs show ability, permission, obligation: can, could, may, might, shall, should, will, would, must",
+        "Action verbs show what the subject does: 'He plays cricket'",
+        "Linking verbs connect subject to complement: 'She is happy'",
+        "Transitive verbs need an object: 'He kicked the ball'",
+        "Intransitive verbs don't need an object: 'Birds fly'"
+      ],
+      "patterns": [
+        {"pattern": "Be Forms", "example": "Am, Is, Are, Was, Were, Be, Been, Being", "explanation": "Used for continuous tenses and passive voice"},
+        {"pattern": "Have Forms", "example": "He has taken lunch before the meeting.", "explanation": "Used for perfect tenses"},
+        {"pattern": "Do Forms", "example": "Does she go to market?", "explanation": "Used for questions and negatives in simple tenses"},
+        {"pattern": "Modals", "example": "You should study hard.", "explanation": "Express ability, permission, obligation, possibility"},
+        {"pattern": "Transitive", "example": "Kohli plays cricket.", "explanation": "Verb needs an object to complete meaning"},
+        {"pattern": "Intransitive", "example": "Sun shines brightly.", "explanation": "Verb is complete without an object"}
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "Modals & Semi-Modals",
+    "category": "Verbs",
+    "step": "V",
+    "summary": "Modal verbs express necessity, possibility, permission and ability. Learn can/could, may/might, shall/should, will/would, must, and semi-modals.",
+    "topics": ["Can & Could", "May & Might", "Shall & Should", "Will & Would", "Must", "Semi-Modals"],
+    "content": {
+      "definition": "Modal auxiliary verbs are used with main verbs to express ability, possibility, permission, obligation, and prediction. They don't change form for person or number.",
+      "key_points": [
+        "Can — ability/permission: 'She can swim well'",
+        "Could — past ability/polite request: 'Could you help me?'",
+        "May — permission/possibility: 'It may rain today'",
+        "Might — less certain possibility: 'He might come tomorrow'",
+        "Shall — future/suggestion: 'Shall we go?'",
+        "Should — advice/obligation: 'You should study hard'",
+        "Must — strong obligation/certainty: 'You must obey the rules'",
+        "Semi-modals: need to, have to, ought to, used to, dare, be able to"
+      ],
+      "patterns": [
+        {"pattern": "Ability", "example": "She can speak three languages.", "explanation": "Can = present ability"},
+        {"pattern": "Permission", "example": "May I come in?", "explanation": "May = formal permission"},
+        {"pattern": "Obligation", "example": "You must wear a helmet.", "explanation": "Must = strong obligation"},
+        {"pattern": "Advice", "example": "You should eat healthy food.", "explanation": "Should = recommendation"},
+        {"pattern": "Possibility", "example": "It might rain tomorrow.", "explanation": "Might = uncertain possibility"},
+        {"pattern": "Request", "example": "Would you please close the door?", "explanation": "Would = polite request"}
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Non-Finites: Gerunds, Infinitives & Participles",
+    "category": "Verbs",
+    "step": "V",
+    "summary": "Non-finite verbs don't change with tense or person. Master gerunds (-ing as noun), infinitives (to + verb), and participles (verb as adjective).",
+    "topics": ["Gerunds", "Infinitives", "Present Participle", "Past Participle", "Complex Forms"],
+    "content": {
+      "definition": "Non-finite verbs (also called verbals) are verb forms that don't act as the main verb. They function as nouns, adjectives, or adverbs in a sentence.",
+      "key_points": [
+        "Gerund = verb + ing used as a noun: 'Swimming is good exercise'",
+        "Infinitive = to + verb: 'She wants to learn English'",
+        "Present participle = verb + ing used as adjective: 'The running water is clean'",
+        "Past participle = verb in -ed/-en form as adjective: 'The broken window needs repair'",
+        "Gerunds follow certain verbs: enjoy, avoid, consider, finish, practice",
+        "Infinitives follow certain verbs: want, decide, hope, plan, agree"
+      ],
+      "patterns": [
+        {"pattern": "Gerund as Subject", "example": "Swimming is good exercise.", "explanation": "Swimming = noun (subject)"},
+        {"pattern": "Gerund as Object", "example": "He enjoys reading books.", "explanation": "Reading = noun (object of enjoys)"},
+        {"pattern": "Infinitive of Purpose", "example": "She studies to pass the exam.", "explanation": "To pass = purpose"},
+        {"pattern": "Present Participle", "example": "The boy sitting there is my friend.", "explanation": "Sitting = adjective describing boy"},
+        {"pattern": "Past Participle", "example": "The car parked outside is mine.", "explanation": "Parked = adjective describing car"},
+        {"pattern": "Perfect Infinitive", "example": "He seems to have left already.", "explanation": "To have left = completed action"}
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "Phrasal & Causative Verbs",
+    "category": "Verbs",
+    "step": "V",
+    "summary": "Phrasal verbs combine a verb with a preposition/adverb to create new meaning. Causative verbs show that someone causes another to do something.",
+    "topics": ["Phrasal Verbs", "Causative Verbs", "Separable & Inseparable"],
+    "content": {
+      "definition": "Phrasal verbs are combinations of a verb with one or more particles (preposition/adverb) that create a meaning different from the original verb.",
+      "key_points": [
+        "Phrasal verbs often have idiomatic meanings: 'give up' ≠ 'give' + 'up'",
+        "Separable: object can go between verb and particle: 'Turn off the light' or 'Turn the light off'",
+        "Inseparable: object must follow the particle: 'Look after the children'",
+        "Causative verbs: make, have, let, get — someone causes an action",
+        "'Make' implies force: 'The teacher made him stand'",
+        "'Let' implies permission: 'Let me go'"
+      ],
+      "patterns": [
+        {"pattern": "Phrasal", "example": "She gave up smoking.", "explanation": "Give up = quit, abandon"},
+        {"pattern": "Phrasal", "example": "Please look after my dog.", "explanation": "Look after = take care of"},
+        {"pattern": "Phrasal", "example": "He turned down the offer.", "explanation": "Turn down = reject"},
+        {"pattern": "Causative", "example": "The teacher made students write essays.", "explanation": "Make + object + base verb (forced)"},
+        {"pattern": "Causative", "example": "She had her car repaired.", "explanation": "Have + object + past participle (arranged)"},
+        {"pattern": "Causative", "example": "He got his friend to help him.", "explanation": "Get + object + to-infinitive (persuaded)"}
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Articles — A, An, The",
+    "category": "Articles",
+    "step": "A",
+    "summary": "Articles (A, An, The) are small but critical. Learn when to use indefinite articles (a/an), the definite article (the), and when to omit them entirely.",
+    "topics": ["A vs An", "The (Definite)", "Zero Article", "Special Cases"],
+    "content": {
+      "definition": "Articles are determiners that precede nouns. English has two types: indefinite (a, an) for general reference and definite (the) for specific reference.",
+      "key_points": [
+        "'A' is used before consonant sounds: a book, a university (sounds like 'yoo')",
+        "'An' is used before vowel sounds: an apple, an hour (silent 'h')",
+        "'The' refers to something specific or already known: 'The sun rises in the east'",
+        "No article with uncountable/abstract nouns in general: 'Water is essential'",
+        "No article with proper nouns (usually): 'India is a country'",
+        "Use 'the' with superlatives: 'the best', 'the tallest', 'the most beautiful'"
+      ],
+      "patterns": [
+        {"pattern": "A", "example": "He is a teacher.", "explanation": "Indefinite — one of many teachers"},
+        {"pattern": "An", "example": "She ate an orange.", "explanation": "Vowel sound — 'o' in orange"},
+        {"pattern": "The", "example": "The Ganga is a holy river.", "explanation": "Specific river — only one Ganga"},
+        {"pattern": "The", "example": "He is the best player.", "explanation": "Superlative always uses 'the'"},
+        {"pattern": "No article", "example": "Gold is a precious metal.", "explanation": "General uncountable noun"},
+        {"pattern": "A vs An", "example": "A European, An MBA", "explanation": "Sound matters, not spelling — European starts with 'y' sound"}
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Parts of Speech — Overview",
+    "category": "Parts of Speech",
+    "step": "P",
+    "summary": "Every word in English belongs to one of 8 parts of speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, Interjection.",
+    "topics": ["8 Parts of Speech", "Word Functions", "Versonyms"],
+    "content": {
+      "definition": "Parts of speech classify words based on their function in a sentence. A word can serve as different parts of speech in different contexts — these are called Versonyms.",
+      "key_points": [
+        "Noun — names a person, place, thing or idea: 'Mumbai is a city'",
+        "Pronoun — replaces a noun: 'He is a teacher'",
+        "Verb — shows action or state: 'Birds fly'",
+        "Adjective — describes a noun: 'The tall building'",
+        "Adverb — modifies a verb, adjective, or adverb: 'She runs quickly'",
+        "Preposition — shows relationship: 'The book is on the table'",
+        "Conjunction — joins words/clauses: 'Ram and Sita'",
+        "Interjection — expresses emotion: 'Wow! That's amazing'"
+      ],
+      "patterns": [
+        {"pattern": "Versonym", "example": "WATER — noun: 'Water is colourless' / verb: 'Water the plants'", "explanation": "Same word, different parts of speech"},
+        {"pattern": "Versonym", "example": "FAST — noun: 'Muslims observe fast' / adjective: 'He is a fast runner' / adverb: 'Don't drive fast'", "explanation": "Three different functions"},
+        {"pattern": "Versonym", "example": "MAKE — noun: 'It is a make of yesteryears' / verb: 'Make a sentence'", "explanation": "Context determines the part of speech"},
+        {"pattern": "Noun", "example": "The army is marching forward.", "explanation": "Army = collective noun"},
+        {"pattern": "Pronoun", "example": "Everyone has to obey the law.", "explanation": "Everyone = indefinite pronoun"},
+        {"pattern": "Preposition", "example": "The cat is under the table.", "explanation": "Under = shows position"}
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Nouns — Classification & Kinds",
+    "category": "Parts of Speech",
+    "step": "P",
+    "summary": "Nouns are the naming words. Learn gender, concrete vs abstract, countable vs uncountable, proper, common, collective, compound, and possessive nouns.",
+    "topics": ["Gender", "Concrete & Abstract", "Countable & Uncountable", "Proper & Common", "Collective", "Compound", "Possessive"],
+    "content": {
+      "definition": "Nouns are words used for person, place, thing or animal. They are classified by gender, form (concrete/abstract), countability, and specificity.",
+      "key_points": [
+        "Masculine Gender — refers to males: Boy, Son, King",
+        "Feminine Gender — refers to females: Mother, Daughter, Queen",
+        "Common Gender — both male and female: Student, Teacher, Worker",
+        "Neuter Gender — lifeless things: Water, Wood, Table",
+        "Proper Noun — specific: English, Tokyo, Nelson Mandela",
+        "Common Noun — general: student, city, country",
+        "Collective Noun — group: army, family, committee",
+        "Abstract Noun — intangible: love, help, fast",
+        "Compound Noun — multiple words: mother-in-law, kick-start"
+      ],
+      "patterns": [
+        {"pattern": "Proper", "example": "English is a global language.", "explanation": "Specific language — capitalized"},
+        {"pattern": "Common", "example": "Every student must have discipline.", "explanation": "General — any student"},
+        {"pattern": "Collective", "example": "The army is marching forward.", "explanation": "Group of soldiers"},
+        {"pattern": "Abstract", "example": "Love is an emotion.", "explanation": "Cannot touch or see"},
+        {"pattern": "Material", "example": "Water is colourless.", "explanation": "Physical substance"},
+        {"pattern": "Compound", "example": "My mother-in-law is a nice lady.", "explanation": "Multiple words forming one noun"}
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "title": "Pronouns — All Kinds",
+    "category": "Parts of Speech",
+    "step": "P",
+    "summary": "Pronouns replace nouns to avoid repetition. Learn personal, possessive, reflexive, interrogative, relative, demonstrative, and distributive pronouns.",
+    "topics": ["Personal Pronouns", "Possessive", "Reflexive", "Interrogative", "Relative", "Demonstrative", "Distributive"],
+    "content": {
+      "definition": "A pronoun is a word that can replace a noun in a sentence. It helps avoid repetition and makes speech smoother.",
+      "key_points": [
+        "Subject pronouns: I, He, She, We, They, You, It",
+        "Object pronouns: Me, Him, Her, Us, Them, You, It",
+        "Possessive pronouns: Mine, Yours, His, Hers, Ours, Theirs",
+        "Reflexive pronouns: Myself, Himself, Herself, Itself, Themselves",
+        "Interrogative pronouns: Who, Whom, Whose, What, Which (5 words only)",
+        "Relative pronouns: Who, Which, That, Whose, Whom, Where, When, Why, How",
+        "Demonstrative pronouns: This, That, These, Those",
+        "Distributive pronouns: Each, Both, Few, Several"
+      ],
+      "patterns": [
+        {"pattern": "Subject", "example": "He is a teacher.", "explanation": "He = subject pronoun replacing a person's name"},
+        {"pattern": "Object", "example": "She helps me.", "explanation": "Me = object pronoun receiving the action"},
+        {"pattern": "Possessive", "example": "The car is mine.", "explanation": "Mine = shows ownership"},
+        {"pattern": "Reflexive", "example": "He hurt himself while playing.", "explanation": "Himself = subject and object are same"},
+        {"pattern": "Interrogative", "example": "Whose is this bag?", "explanation": "Whose = asks about ownership"},
+        {"pattern": "Relative", "example": "This is the place where I was born.", "explanation": "Where = connects to a relative clause"}
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "title": "Adjectives & Adverbs",
+    "category": "Parts of Speech",
+    "step": "P",
+    "summary": "Adjectives describe nouns, adverbs modify verbs, adjectives, or other adverbs. Learn their types, order, degrees of comparison, and placement rules.",
+    "topics": ["Descriptive Adjectives", "Determiners", "Order of Adjectives", "Adverb Types", "Order of Adverbs", "Degrees of Comparison"],
+    "content": {
+      "definition": "Adjectives modify nouns (answer what kind, which, how many). Adverbs modify verbs, adjectives, or other adverbs (answer how, when, where, how often).",
+      "key_points": [
+        "Attributive adjective comes before noun: 'Few cats like cold water'",
+        "Predicative adjective comes after verb: 'The child is asleep'",
+        "Adjective order: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose",
+        "Adverb types: manner (quickly), time (yesterday), place (here), frequency (always), degree (very)",
+        "Adverb placement: generally close to the word it modifies",
+        "Degrees: Positive (tall), Comparative (taller), Superlative (tallest)"
+      ],
+      "patterns": [
+        {"pattern": "Attributive", "example": "She wore a beautiful red dress.", "explanation": "Beautiful, red = before the noun"},
+        {"pattern": "Predicative", "example": "The food tastes delicious.", "explanation": "Delicious = after the linking verb"},
+        {"pattern": "Manner", "example": "He speaks fluently.", "explanation": "Fluently = how he speaks"},
+        {"pattern": "Frequency", "example": "He never tells a lie.", "explanation": "Never = how often"},
+        {"pattern": "Comparative", "example": "John is taller than Jim.", "explanation": "Comparing two = -er / more"},
+        {"pattern": "Superlative", "example": "He is the tallest in the class.", "explanation": "Among many = -est / most"}
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": "Prepositions & Conjunctions",
+    "category": "Parts of Speech",
+    "step": "P",
+    "summary": "Prepositions show relationships between words (in, on, at, by). Conjunctions join words, phrases, or clauses (and, but, because, although).",
+    "topics": ["Prepositions of Time", "Prepositions of Place", "Coordinating Conjunctions", "Subordinating Conjunctions"],
+    "content": {
+      "definition": "Prepositions are words placed before nouns/pronouns to show relationship. Conjunctions are connectors that join words, phrases, or clauses.",
+      "key_points": [
+        "Common prepositions: in, on, at, by, with, for, to, from, about, between",
+        "Time prepositions: at (specific time), on (day/date), in (month/year/period)",
+        "Place prepositions: at (point), on (surface), in (enclosed space)",
+        "Coordinating conjunctions (FANBOYS): For, And, Nor, But, Or, Yet, So",
+        "Subordinating conjunctions: because, although, when, while, if, unless, since",
+        "Correlative conjunctions: either...or, neither...nor, both...and, not only...but also"
+      ],
+      "patterns": [
+        {"pattern": "Time", "example": "He arrives at 5 PM on Monday in January.", "explanation": "at=specific time, on=day, in=month"},
+        {"pattern": "Place", "example": "The book is on the table in the room.", "explanation": "on=surface, in=enclosed"},
+        {"pattern": "Coordinating", "example": "He is poor but honest.", "explanation": "But = contrast between equal parts"},
+        {"pattern": "Subordinating", "example": "She stayed because it was raining.", "explanation": "Because = reason"},
+        {"pattern": "Correlative", "example": "Neither his father nor his mother is happy.", "explanation": "Neither...nor = both negative"},
+        {"pattern": "Participial", "example": "Considering the weather, we stayed home.", "explanation": "Considering = participial preposition"}
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "title": "Tenses — 12 Forms Explained",
+    "category": "Tenses",
+    "step": "T",
+    "summary": "English has 12 tenses — 4 forms (simple, continuous, perfect, perfect continuous) across 3 times (past, present, future). Master construction and usage.",
+    "topics": ["Present Tenses", "Past Tenses", "Future Tenses", "80 Sentence Variants"],
+    "content": {
+      "definition": "Tenses indicate the time of an action. English has 12 tenses organized in a 3×4 grid: Past/Present/Future × Simple/Continuous/Perfect/Perfect Continuous.",
+      "key_points": [
+        "Simple Present: habitual actions — 'He plays cricket'",
+        "Present Continuous: happening now — 'He is playing cricket'",
+        "Present Perfect: past action with present relevance — 'He has played cricket'",
+        "Present Perfect Continuous: started in past, still continuing — 'He has been playing cricket'",
+        "Simple Past: completed action — 'He played cricket'",
+        "Past Continuous: was happening — 'He was playing cricket'",
+        "Past Perfect: before another past action — 'He had played cricket before lunch'",
+        "Simple Future: will happen — 'He will play cricket'",
+        "Each tense has 80 sentence variants: Active/Passive × Affirmative/Negative/Interrogative forms"
+      ],
+      "patterns": [
+        {"pattern": "Simple Present", "example": "She teaches English every day.", "explanation": "V1 / V1+s (habitual/general truth)"},
+        {"pattern": "Present Continuous", "example": "She is teaching English now.", "explanation": "is/am/are + V-ing (happening now)"},
+        {"pattern": "Present Perfect", "example": "She has taught English for 10 years.", "explanation": "has/have + V3 (past with present connection)"},
+        {"pattern": "Simple Past", "example": "She taught English last year.", "explanation": "V2 (completed past action)"},
+        {"pattern": "Past Perfect", "example": "She had taught English before she moved.", "explanation": "had + V3 (before another past event)"},
+        {"pattern": "Simple Future", "example": "She will teach English tomorrow.", "explanation": "will + V1 (future plan/prediction)"}
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "title": "Interrogatives & Imperatives",
+    "category": "Interrogatives",
+    "step": "I",
+    "summary": "Questions are critical in spoken English. Learn WH-words, Yes/No questions, alternative questions, question tags, and imperative sentences.",
+    "topics": ["WH-Questions", "Yes/No Questions", "Question Tags", "Alternative Questions", "Imperative Sentences"],
+    "content": {
+      "definition": "Interrogative sentences ask questions. They use WH-words (who, what, where, when, why, which, how) or auxiliary verb inversion. Imperative sentences give commands or requests.",
+      "key_points": [
+        "WH-words: Who (person), What (thing), Where (place), When (time), Why (reason), Which (choice), How (manner)",
+        "Yes/No questions start with auxiliary: 'Do you like coffee?'",
+        "Question tags confirm: positive statement → negative tag, and vice versa",
+        "Alternative questions offer a choice: 'Do you want tea or coffee?'",
+        "Imperatives give commands: 'Close the door.' / 'Please sit down.'",
+        "Negative imperatives: 'Don't touch that.' / 'Never give up.'"
+      ],
+      "patterns": [
+        {"pattern": "Who", "example": "Who is your teacher?", "explanation": "Asks about a person"},
+        {"pattern": "What", "example": "What is your name?", "explanation": "Asks about a thing/identity"},
+        {"pattern": "Where", "example": "Where do you live?", "explanation": "Asks about a place"},
+        {"pattern": "Tag", "example": "She is a doctor, isn't she?", "explanation": "Positive → negative tag"},
+        {"pattern": "Tag", "example": "They don't like it, do they?", "explanation": "Negative → positive tag"},
+        {"pattern": "Imperative", "example": "Please close the door.", "explanation": "Polite command — subject 'you' is implied"}
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "title": "Punctuation Marks",
+    "category": "Punctuation",
+    "step": "P",
+    "summary": "Punctuation gives writing its clarity and rhythm. Learn the full stop, comma, colon, semicolon, apostrophe, quotation marks, and more.",
+    "topics": ["Full Stop", "Comma", "Colon & Semicolon", "Apostrophe", "Quotation Marks", "Capitalization"],
+    "content": {
+      "definition": "Punctuation marks are symbols that organize writing, indicate pauses, show relationships, and clarify meaning. They are essential for written English.",
+      "key_points": [
+        "Full stop (.) — ends a declarative sentence",
+        "Comma (,) — separates items in a list, after introductory phrases, in compound sentences",
+        "Colon (:) — introduces a list, explanation, or elaboration",
+        "Semicolon (;) — connects closely related independent clauses",
+        "Apostrophe (') — shows possession (John's) or contraction (don't)",
+        "Quotation marks (\"\") — enclose direct speech or titles",
+        "Hyphen (-) — joins compound words: mother-in-law",
+        "Dash (—) — adds emphasis or an aside"
+      ],
+      "patterns": [
+        {"pattern": "Comma", "example": "I bought apples, oranges, and bananas.", "explanation": "Separates items in a list (Oxford comma)"},
+        {"pattern": "Colon", "example": "He has three hobbies: reading, swimming, and cooking.", "explanation": "Introduces a list"},
+        {"pattern": "Semicolon", "example": "She loves reading; he prefers writing.", "explanation": "Joins related independent clauses"},
+        {"pattern": "Apostrophe", "example": "It's John's car.", "explanation": "It's = contraction; John's = possession"},
+        {"pattern": "Capitalization", "example": "English, Monday, January, India", "explanation": "Languages, days, months, proper nouns"},
+        {"pattern": "Quotation", "example": "She said, \"I will come tomorrow.\"", "explanation": "Direct speech enclosed in quotes"}
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "title": "Active & Passive Voice",
+    "category": "Advanced",
+    "step": null,
+    "summary": "In active voice, the subject does the action. In passive voice, the subject receives the action. Learn conversion rules for all tenses.",
+    "topics": ["Active to Passive Rules", "Tense-wise Conversion", "Quasi-Passive Voice"],
+    "content": {
+      "definition": "Voice shows whether the subject performs the action (active) or receives it (passive). Passive is formed with be + past participle.",
+      "key_points": [
+        "Active: Subject → Verb → Object: 'She writes a letter'",
+        "Passive: Object → be + V3 → by Subject: 'A letter is written by her'",
+        "Change object to subject, add 'be' form matching tense, use past participle",
+        "Simple Present: writes → is written",
+        "Simple Past: wrote → was written",
+        "Present Perfect: has written → has been written",
+        "Not all sentences can be made passive — intransitive verbs don't have passives"
+      ],
+      "patterns": [
+        {"pattern": "Simple Present", "example": "Active: 'He teaches English.' → Passive: 'English is taught by him.'", "explanation": "teaches → is taught"},
+        {"pattern": "Simple Past", "example": "Active: 'She wrote a letter.' → Passive: 'A letter was written by her.'", "explanation": "wrote → was written"},
+        {"pattern": "Present Cont.", "example": "Active: 'They are building a house.' → Passive: 'A house is being built.'", "explanation": "are building → is being built"},
+        {"pattern": "Present Perfect", "example": "Active: 'He has finished the work.' → Passive: 'The work has been finished.'", "explanation": "has finished → has been finished"},
+        {"pattern": "Future", "example": "Active: 'She will sing a song.' → Passive: 'A song will be sung by her.'", "explanation": "will sing → will be sung"},
+        {"pattern": "Modal", "example": "Active: 'You can solve this.' → Passive: 'This can be solved by you.'", "explanation": "can solve → can be solved"}
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "title": "Direct & Indirect Speech",
+    "category": "Advanced",
+    "step": null,
+    "summary": "Convert between direct speech (exact words) and indirect/reported speech. Learn the rules for tense shift, pronoun changes, and time/place words.",
+    "topics": ["Reporting Verbs", "Tense Shift Rules", "Pronoun Changes", "Time & Place Changes"],
+    "content": {
+      "definition": "Direct speech quotes the exact words spoken. Indirect (reported) speech conveys the meaning without quoting exact words, requiring changes in tense, pronouns, and time expressions.",
+      "key_points": [
+        "Direct: He said, 'I am happy.' → Indirect: He said that he was happy.",
+        "Tense shifts back: am→was, is→was, will→would, can→could",
+        "Pronouns change based on speaker: I→he/she, we→they, my→his/her",
+        "Time words change: today→that day, tomorrow→the next day, yesterday→the previous day",
+        "Questions: 'Where do you live?' → He asked where I lived (no question mark)",
+        "Commands: 'Sit down!' → He told me to sit down (use infinitive)"
+      ],
+      "patterns": [
+        {"pattern": "Statement", "example": "He said, 'I am tired.' → He said that he was tired.", "explanation": "am → was, I → he"},
+        {"pattern": "Question", "example": "She asked, 'Where do you work?' → She asked where I worked.", "explanation": "do work → worked, you → I"},
+        {"pattern": "Command", "example": "He said, 'Close the door.' → He told me to close the door.", "explanation": "Imperative → told + to-infinitive"},
+        {"pattern": "Request", "example": "She said, 'Please help me.' → She requested me to help her.", "explanation": "Please = request"},
+        {"pattern": "Will → Would", "example": "'I will come.' → He said he would come.", "explanation": "will shifts to would"},
+        {"pattern": "Time Change", "example": "'I saw him yesterday.' → She said she had seen him the previous day.", "explanation": "Yesterday → the previous day"}
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "title": "Conditionals & Wish Clauses",
+    "category": "Advanced",
+    "step": null,
+    "summary": "Conditional sentences express if-then relationships. Learn zero, first, second, third conditionals and wish clauses for expressing desires.",
+    "topics": ["Zero Conditional", "First Conditional", "Second Conditional", "Third Conditional", "Wish Clauses"],
+    "content": {
+      "definition": "Conditional sentences have an 'if' clause (condition) and a main clause (result). The type of conditional depends on how real or likely the condition is.",
+      "key_points": [
+        "Zero: If + present, present — general truths: 'If you heat water, it boils'",
+        "First: If + present, will + verb — real/likely: 'If it rains, I will stay home'",
+        "Second: If + past, would + verb — unreal/unlikely: 'If I were rich, I would travel'",
+        "Third: If + past perfect, would have + V3 — impossible (past): 'If I had studied, I would have passed'",
+        "Wish + past simple — present wish: 'I wish I were taller'",
+        "Wish + past perfect — past regret: 'I wish I had studied harder'"
+      ],
+      "patterns": [
+        {"pattern": "Zero", "example": "If you heat ice, it melts.", "explanation": "Fact/general truth — always true"},
+        {"pattern": "First", "example": "If she studies hard, she will pass.", "explanation": "Real possibility in present/future"},
+        {"pattern": "Second", "example": "If I were a bird, I would fly.", "explanation": "Unreal present — 'were' for all subjects"},
+        {"pattern": "Third", "example": "If he had come, we would have won.", "explanation": "Unreal past — impossible to change now"},
+        {"pattern": "Wish (Present)", "example": "I wish I knew the answer.", "explanation": "Desire for something different now"},
+        {"pattern": "Wish (Past)", "example": "I wish I had listened to her.", "explanation": "Regret about the past"}
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "title": "Degrees of Comparison",
+    "category": "Advanced",
+    "step": null,
+    "summary": "Compare things using positive, comparative, and superlative degrees. Learn the rules for -er/-est, more/most, and irregular forms.",
+    "topics": ["Positive Degree", "Comparative Degree", "Superlative Degree", "Irregular Forms"],
+    "content": {
+      "definition": "Degrees of comparison are used to compare adjectives and adverbs. There are three degrees: Positive (no comparison), Comparative (two things), and Superlative (more than two).",
+      "key_points": [
+        "Positive: as + adjective + as — 'John is as strong as Jim'",
+        "Comparative: adjective + er/more + than — 'Jim is stronger than John'",
+        "Superlative: the + adjective + est/most — 'He is the strongest in the class'",
+        "One syllable: tall → taller → tallest",
+        "Two+ syllables: beautiful → more beautiful → most beautiful",
+        "Irregular: good → better → best; bad → worse → worst"
+      ],
+      "patterns": [
+        {"pattern": "Positive", "example": "John is as strong as Jim.", "explanation": "Equal comparison — as...as"},
+        {"pattern": "Comparative", "example": "She is taller than her sister.", "explanation": "Two things — -er + than"},
+        {"pattern": "Superlative", "example": "He is the most intelligent student.", "explanation": "Among all — the most"},
+        {"pattern": "Negative", "example": "No other city is as big as Mumbai.", "explanation": "Superlative idea using positive degree"},
+        {"pattern": "Irregular", "example": "This is better than that. / This is the best.", "explanation": "Good → better → best"},
+        {"pattern": "Adverb", "example": "She runs faster than him. She runs the fastest.", "explanation": "Adverbs also have degrees"}
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "title": "Figures of Speech",
+    "category": "Advanced",
+    "step": null,
+    "summary": "Figures of speech add beauty and emphasis to language. Learn simile, metaphor, personification, hyperbole, alliteration, and more.",
+    "topics": ["Simile", "Metaphor", "Personification", "Hyperbole", "Alliteration", "Onomatopoeia"],
+    "content": {
+      "definition": "Figures of speech are creative expressions that go beyond literal meaning to add emphasis, beauty, or clarity to language.",
+      "key_points": [
+        "Simile — comparison using 'like' or 'as': 'He is as brave as a lion'",
+        "Metaphor — direct comparison without like/as: 'Life is a journey'",
+        "Personification — giving human qualities to non-human things: 'The wind whispered'",
+        "Hyperbole — exaggeration for effect: 'I've told you a million times'",
+        "Alliteration — repetition of initial sounds: 'Peter Piper picked peppers'",
+        "Onomatopoeia — words that imitate sounds: 'buzz, hiss, splash'"
+      ],
+      "patterns": [
+        {"pattern": "Simile", "example": "Her smile was like sunshine.", "explanation": "Uses 'like' to compare"},
+        {"pattern": "Metaphor", "example": "Time is money.", "explanation": "Direct equation without like/as"},
+        {"pattern": "Personification", "example": "The flowers danced in the breeze.", "explanation": "Flowers given human action"},
+        {"pattern": "Hyperbole", "example": "I'm so hungry I could eat a horse.", "explanation": "Exaggeration for emphasis"},
+        {"pattern": "Alliteration", "example": "She sells seashells by the seashore.", "explanation": "Repeated 's' and 'sh' sounds"},
+        {"pattern": "Onomatopoeia", "example": "The bees buzzed around the hive.", "explanation": "'Buzzed' imitates the sound"}
+      ]
+    }
+  }
+]
