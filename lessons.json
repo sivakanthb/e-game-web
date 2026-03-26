@@ -23,7 +23,7 @@
         {"pattern": "SVOC", "example": "They elected him chairman.", "explanation": "Subject + Verb + Object + Complement"},
         {"pattern": "SVIODO", "example": "He gave her a present.", "explanation": "Subject + Verb + Indirect Object + Direct Object"}
       ],
-      "grammar_family": "There is a family in London whose surname is Grammar. Mr. Noun and Mrs. Verb are the couple. They have three children: son Pronoun, and daughters Adjective and Adverb. Pronoun does all his father's work in his absence. Adjective loves her father (Noun) and keeps praising him. Adverb loves her mother (Verb) and always modifies her. Preposition is the chief servant, Conjunction is the matchmaker who joins words, and Interjection is the function supplier for Joy, Surprise, and Sorrow.",
+      "grammar_family": "There is a family in London whose surname is Grammar. Mr. Noun and Mrs. Verb are the couple. They have three children: son Pronoun, and daughters Adjective and Adverb. Pronoun does all his father's work in his absence. Adjective loves her father (Noun) and brother (Pronoun) and keeps praising them. Adverb loves her mother (Verb) and always modifies her. Preposition is the chief servant, Conjunction is the matchmaker who joins words, and Interjection is the function supplier for Joy, Surprise, and Sorrow.",
       "kinds_of_sentences": [
         {"type": "Declarative", "description": "Tells about something.", "example": "Sun sets in the west."},
         {"type": "Interrogative", "description": "Asks something.", "example": "How are you?"},
