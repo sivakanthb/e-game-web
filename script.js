@@ -151,6 +151,14 @@ function initLessonsPage() {
         html += '<div class="example-box">' + esc(c.grammar_family) + '</div>';
       }
 
+      if (c.kinds_of_sentences && c.kinds_of_sentences.length) {
+        html += '<h3>Kinds of Sentences (5 Types)</h3>';
+        c.kinds_of_sentences.forEach(function(k) {
+          html += '<div class="example-box"><strong>' + esc(k.type) + ':</strong> ' + esc(k.description) +
+            '<br><em>Ex: ' + esc(k.example) + '</em></div>';
+        });
+      }
+
       html += '<h3>Key Points</h3><ul>';
       c.key_points.forEach(function(p) {
         html += '<li>' + esc(p) + '</li>';
